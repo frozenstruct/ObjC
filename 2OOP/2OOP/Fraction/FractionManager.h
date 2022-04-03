@@ -12,11 +12,12 @@
 
 @interface FractionManager : NSObject
 
--(void) print;
+-(void)print;
+-(void)setNumerator: (int) n;
+-(void)setDenominator: (int) d;
 
--(void) setNumerator: (int) n;
-
--(void) setDenominator: (int) d;
+-(int)numerator;
+-(int)denominator;
 
 @end
 

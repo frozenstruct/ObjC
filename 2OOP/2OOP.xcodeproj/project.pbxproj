@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3F5EA0FF27F79C8D00E4376C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EA0FE27F79C8D00E4376C /* main.m */; };
+		3F5EA10727F856E400E4376C /* FractionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EA10627F856E400E4376C /* FractionManager.m */; };
+		3F5EA10B27F8B09800E4376C /* Teapot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EA10A27F8B09800E4376C /* Teapot.m */; };
+		3F5EA10F27FA228800E4376C /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EA10E27FA228800E4376C /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +28,12 @@
 /* Begin PBXFileReference section */
 		3F5EA0FB27F79C8D00E4376C /* 2OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2OOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5EA0FE27F79C8D00E4376C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F5EA10527F79D6500E4376C /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		3F5EA10527F79D6500E4376C /* FractionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionManager.h; sourceTree = "<group>"; };
+		3F5EA10627F856E400E4376C /* FractionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractionManager.m; sourceTree = "<group>"; };
+		3F5EA10927F8B02E00E4376C /* Teapot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teapot.h; sourceTree = "<group>"; };
+		3F5EA10A27F8B09800E4376C /* Teapot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teapot.m; sourceTree = "<group>"; };
+		3F5EA10D27FA20F200E4376C /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		3F5EA10E27FA228800E4376C /* XYPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +67,38 @@
 			isa = PBXGroup;
 			children = (
 				3F5EA0FE27F79C8D00E4376C /* main.m */,
-				3F5EA10527F79D6500E4376C /* Fraction.h */,
+				3F5EA10827F8573900E4376C /* Fraction */,
+				3F5EA10C27F8B09B00E4376C /* Teapot */,
+				3F5EA11027FA229900E4376C /* XYPoint */,
 			);
 			path = 2OOP;
+			sourceTree = "<group>";
+		};
+		3F5EA10827F8573900E4376C /* Fraction */ = {
+			isa = PBXGroup;
+			children = (
+				3F5EA10527F79D6500E4376C /* FractionManager.h */,
+				3F5EA10627F856E400E4376C /* FractionManager.m */,
+			);
+			path = Fraction;
+			sourceTree = "<group>";
+		};
+		3F5EA10C27F8B09B00E4376C /* Teapot */ = {
+			isa = PBXGroup;
+			children = (
+				3F5EA10927F8B02E00E4376C /* Teapot.h */,
+				3F5EA10A27F8B09800E4376C /* Teapot.m */,
+			);
+			path = Teapot;
+			sourceTree = "<group>";
+		};
+		3F5EA11027FA229900E4376C /* XYPoint */ = {
+			isa = PBXGroup;
+			children = (
+				3F5EA10D27FA20F200E4376C /* XYPoint.h */,
+				3F5EA10E27FA228800E4376C /* XYPoint.m */,
+			);
+			path = XYPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5EA10B27F8B09800E4376C /* Teapot.m in Sources */,
 				3F5EA0FF27F79C8D00E4376C /* main.m in Sources */,
+				3F5EA10727F856E400E4376C /* FractionManager.m in Sources */,
+				3F5EA10F27FA228800E4376C /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
