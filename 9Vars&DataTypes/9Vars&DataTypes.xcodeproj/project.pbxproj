@@ -83,15 +83,23 @@
 			isa = PBXGroup;
 			children = (
 				3F3626F7281D523400286BCF /* main.m */,
-				90564F372822AEE000CCE7E0 /* WeekendDetector.h */,
-				90564F382822AEE000CCE7E0 /* WeekendDetector.m */,
 				90AC5A9628229DC60052A99A /* InitializableSubject */,
 				90AC5A9728229DD00052A99A /* LocalLib */,
 				90564F2F2822AAD600CCE7E0 /* Rectangle */,
 				90AC5A9528229DB90052A99A /* SeasonConstructor */,
 				90AC5A9428229DAD0052A99A /* SubjectAllocator */,
+				3FF7CB1A28326CB7000FEC32 /* WeekendDetector */,
 			);
 			path = "9Vars&DataTypes";
+			sourceTree = "<group>";
+		};
+		3FF7CB1A28326CB7000FEC32 /* WeekendDetector */ = {
+			isa = PBXGroup;
+			children = (
+				90564F372822AEE000CCE7E0 /* WeekendDetector.h */,
+				90564F382822AEE000CCE7E0 /* WeekendDetector.m */,
+			);
+			path = WeekendDetector;
 			sourceTree = "<group>";
 		};
 		90564F2F2822AAD600CCE7E0 /* Rectangle */ = {
